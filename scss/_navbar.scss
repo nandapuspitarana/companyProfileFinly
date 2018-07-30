@@ -1,0 +1,42 @@
+#navbar{
+    background-color: transparent;
+    top: 0;
+    padding: 0px 0px;
+    .nav0 {
+        display: flex;
+        padding: 0px;
+        .navbar-toggler{
+            outline: 0;
+        }
+        
+        a.navbar-brand {
+            color: $w !important;
+            font-size: 24px;
+            font-weight: 500;
+            margin-left: 0;
+        }
+    
+        a {
+            color: $w !important;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 37px;
+    
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    
+        .nav-btn {
+            color: $w !important;
+            padding: 10px 30px;
+            letter-spacing: 1.5px;
+            margin-left: 1.6rem;
+            background-color: $g;
+    
+            &:hover {
+                background-color: #45da8d;
+            }
+        }
+    }
+}

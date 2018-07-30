@@ -8,7 +8,13 @@
 		<!-- font  -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,400i,500,600,700,800">
 		
-		<link rel="stylesheet" href="css/styles.min.css">
+		<!--build:css css/styles.min.css-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<!--endbuild-->
 	</head>
 	<body>
 		<div class="navbar navbar-dark navbar-expand-lg navbar-dark pt-5 nav0" id="navbar">
@@ -410,6 +416,16 @@
 			<!-- Optional JavaScript -->
 			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 			
-			<script src="js/main.min.js"></script>
+			<!--build:js js/main.min.js -->
+			<script src="js/jquery.slim.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/swiper.min.js"></script>
+			<script src="js/slideresponsive.js"></script>
+			<script src="js/wow.js"></script>
+			<script>
+				new WOW().init();
+			</script>
+			<!-- endbuild -->
 	</body>
 </html>
